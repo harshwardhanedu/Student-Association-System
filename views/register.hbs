@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="/register" method="POST" style="margin: auto; width: 60%; padding: 10px;">
+            <div>
+                <div className='container'></br>
+                    <h1 style="margin: auto; width: 50%; padding: 20px;">Welcome to registration page </h1></br>
+                    <label>Name</label>
+                    <input type="text" placeholder="Name" name="name"></input><br>
+
+                    <label>Conatct Number</label>
+                    <input type="text" placeholder="Contact number" name="contact"></input><br>
+
+                    <label>Email Id</label>
+                    <input type="text" placeholder="Email id" name="email"></input><br>
+
+                    <label>Gender</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                    <div class="dept">
+                        <label>Department</label>
+                        <input type="radio" id="Computer Science" name="dept" value="Computer Science">
+                        <label for="Computer Science">Computer Science</label>
+                        <input type="radio" id="Civil" name="dept" value="Civil">
+                        <label for="Civil">Civil</label>
+                        <input type="radio" id="Mechanical" name="dept" value="Mechanical">
+                        <label for="Mechanical">Mechanical</label>
+                        <input type="radio" id="Electrical" name="dept" value="Electrical">
+                        <label for="Electrical">Electrical</label>
+                        <input type="radio" id="Electronics" name="dept" value="Electronics">
+                        <label for="Electronics">Electronics</label><br>
+                    </div>
+
+                    <div class="year">
+                        <label>Year</label>
+                        <input type="radio" id="SY" name="year" value="SY">
+                        <label for="SY">SY</label>
+                        <input type="radio" id="TY" name="year" value="TY">
+                        <label for="TY">TY</label>
+                        <input type="radio" id="BE" name="year" value="BE">
+                        <label for="BE">BE</label><br>
+                    </div>
+
+
+                    <!--<div class="event">
+                        <label>Select the Event</Select></label>
+                        <input type="radio" id="Cultral" name="event" value="Cultral">
+                        <label for="Cultral">Cultral</label>
+                        <input type="radio" id="Sports" name="event" value="Sports">
+                        <label for="Sports">Sports</label>
+                        <input type="radio" id="Technical" name="event" value="Technical">
+                        <label for="Technical">Technical</label><br>
+                    </div>-->
+
+
+                    <div class="cultural"></br>
+                        <label>Cultural Events</label>
+                        <input type="radio" id="Canvas Painting (Cultral event)" name="fest" value="Canvas Painting (Cultral event)">
+                        <label for="Canvas Painting (Cultral event)">Canvas Painting </label></div></br>
+
+                    <div class="Sports">
+                        <label> Sports Events</label>
+                        <input type="radio" id="Box Cricket (Sports event)" name="fest1" value="Box Cricket (Sports event)">
+                        <label for="Box Cricket (Sports event)">Box Cricket</label>
+                    </div></br>
+
+                    <div class="Technical">
+                        <label>Technical Events</label>
+                        <input type="radio" id="Mock Test (Technical event)" name="fest2" value="Mock Test (Technical event)">
+                        <label for="Mock Test (Technical event)">Mock Test</label><br>
+                    </div></br>
+
+                    <input type="submit" className='btn btn-danger btn-block' value='Register'/>
+
+
+                </div>
+            </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
