@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background: #555;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+</style>
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <body>  
+    <br>  
+    <br>  
+    <form action="/action_page.php">
+        <div class="container">
+          <h1 style="text-align: center;">Booking</h1>
+          <p>Please fill in this form to book your room now.</p>
+          <hr>
+      
+          <label for="name"><b>Name : </b></label>
+          <input type="text" placeholder="Enter Name" name="name" id="name" required><br><br>
+      
+          <label for="contact"><b>Contact : </b></label>
+          <input type="contact" placeholder="Enter contact No." name="contact" id="contact" required><br><br>
+      
+          <label for="arrivedfrom"><b>Arrived from : </b></label>
+          <input type="arrivedfrom" placeholder="Arrived from" name="arrivedfrom" id="arrivedfrom" required><br><br>
+
+          <label for="purpose"><b>Purpose of Staying : </b></label>
+          <input type="purpose" placeholder="Purpose of Staying" name="purpose" id="purpose" required><br><br>
+
+          <label for="aadhaar"><b>Aadhaar No : </b></label>
+          <input type="aadhaar" placeholder="Aadhaar No" name="aadhaar" id="aadhaar" required><br><br>
+
+          <label><b>Select No of persons : </b></label>
+          <select name="select" id="select">
+          <option value="1" selected="selected">1</option>
+          <option value="2">2</option>
+          </select>
+          <br><br>
+
+          <label><b>Select No of rooms : </b></label>
+          <select name="select" id="select">
+          <option value="1" selected="selected">1</option>
+          <option value="2">2</option>
+          <option value="2">3</option>
+          <option value="2">4</option>
+          <option value="2">5</option>
+          <option value="2">6</option> 
+
+          </select>
+          <br><br>
+
+          <label><b>Room type : </b></label>
+          <select name="select" id="select">
+          <option value="Suit" selected="selected">Suit</option>
+          <option value="Delux">Delux</option>
+          <option value="Super Delux">Super Delux</option>
+
+          <option value="AC Suit">AC Suit</option>
+          <option value="AC Delux">AC Delux</option>
+          <option value="Super Delux">AC Super Delux</option>
+          </select>
+          <br><br>
+          
+          <label for="arrival"><b>Date of Arrival :</b></label>
+          <input type="date" id="arrival" name="arrival"><br><br>
+
+          <label for="departure"><b>Date of Departure :</b></label>
+          <input type="date" id="departure" name="departure">
+
+          <hr>
+          <p>By clicking on book now you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <div style="text-align: center;">
+          <button type="submit" class="bookbtn"><b>Book Now</b></button>
+          </div>
+        </div>
+
+      </form>
+
+    </body>  
+    </html>  
